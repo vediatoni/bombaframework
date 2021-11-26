@@ -1,0 +1,6 @@
+export * from "./Game"
+export * from "./FirstPerson/FirstPersonCamera"
+export * from "./Scene"
+export * from "./Meshes/Mesh"
+export * from "./Meshes/Plane"
+export * from "./Meshes/Box"

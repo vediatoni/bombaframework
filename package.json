@@ -1,0 +1,25 @@
+{
+  "name": "project-dragon-br",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "cannon": "^0.6.2",
+    "express": "^4.17.1",
+    "three": "^0.111.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "@types/cannon": "^0.1.4"
+  },
+  "scripts": {
+    "start": "webpack && node app.js"
+  },
+  "author": "Antonio Jelic",
+  "license": "ISC"
+}
